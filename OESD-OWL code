@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/boriana/ontologies/2021/5/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/boriana/ontologies/2021/5/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/boriana/ontologies/2021/5/untitled-ontology-6"/>
+    <Prefix name="env" IRI="http://purl.obolibrary.org/obo/envo.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="sdg" IRI="http://purl.unep.org/sdg/sdgio.owl#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="OESD" IRI="http://www.semanticweb.org/boriana/ontologies/2021/5/untitled-ontology-6"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Absurdly_Strong_ESD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air_Pollution_Assimilation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biodiversity_Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CNC_Indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbon_Intensity_Reducing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climate_Change_Limiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critical_Natural_Capital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_Habitat_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_Indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_Information_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_Metrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_Production_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_Regulation_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESD_strategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earth_System_Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecological_Process_Regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecosystem_Support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Justice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Law_Violation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Sustainability_Index"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Sustainable_Development"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erosion_Prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forest_Sustainable_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Greenhouse_Gaz_Emission_Limiting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Life-Support_Regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Resource_Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nature_Destroying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protect_and_Restore_and_Promote_Sustainable_Use_of_Terrestrial_Ecosystems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sea_and_Ocean_Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strong_ESD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sustainable_Ecosystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sustainable_Use_of_the_Oceans_and_Seas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Take_Urgent_Action_to_Combat_Climate_Change_and_its_Impacts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type_of_ESD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type_of_ESD_by_CNC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type_of_ESD_by_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waste_Assimilation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weak_ESD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conserve_and_Sustainable_Use_the_Oceans,_Seas_and_Marine_Resources"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_abbreviation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_antonym"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_format"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_goal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_lexical_variant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_property"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_reference_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_result"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_version"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_abbreviation_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_antonym_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_format_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_goal_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_lexical_variant_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_located_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_manufacturer_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_measure_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_method_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_mode_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_property_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_referenced_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_required_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_result_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_used_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_version_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_speed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_name_of"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#hasSynonym"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Absurdly_Strong_ESD"/>
+        <Class IRI="#Type_of_ESD_by_CNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air_Pollution_Assimilation"/>
+        <Class IRI="#Natural_Resource_Protection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biodiversity_Protection"/>
+        <Class IRI="#Natural_Resource_Protection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CNC_Indicator"/>
+        <Class IRI="#ESD_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbon_Intensity_Reducing"/>
+        <Class IRI="#Air_Pollution_Assimilation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climate_Change_Limiting"/>
+        <Class IRI="#Take_Urgent_Action_to_Combat_Climate_Change_and_its_Impacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Critical_Natural_Capital"/>
+        <Class IRI="#ESD_standard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_Habitat_Function"/>
+        <Class IRI="#Type_of_ESD_by_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_Indicator"/>
+        <Class IRI="#Environmental_Sustainable_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_Information_Function"/>
+        <Class IRI="#Type_of_ESD_by_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_Metrics"/>
+        <Class IRI="#Environmental_Sustainable_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_Production_Function"/>
+        <Class IRI="#Type_of_ESD_by_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_Regulation_Function"/>
+        <Class IRI="#Type_of_ESD_by_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_goal"/>
+        <Class IRI="#Environmental_Sustainable_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_standard"/>
+        <Class IRI="#Environmental_Sustainable_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ESD_strategy"/>
+        <Class IRI="#Environmental_Sustainable_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earth_System_Protection"/>
+        <Class IRI="#Natural_Resource_Protection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecological_Process_Regulation"/>
+        <Class IRI="#Protect_and_Restore_and_Promote_Sustainable_Use_of_Terrestrial_Ecosystems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecosystem_Support"/>
+        <Class IRI="#Natural_Resource_Protection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Justice"/>
+        <Class IRI="#Environmental_Sustainable_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Law"/>
+        <Class IRI="#Environmental_Justice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Law_Violation"/>
+        <Class IRI="#Environmental_Law"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Quality"/>
+        <Class IRI="#ESD_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Sustainability_Index"/>
+        <Class IRI="#ESD_Indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erosion_Prevention"/>
+        <Class IRI="#Earth_System_Protection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forest_Sustainable_Management"/>
+        <Class IRI="#Protect_and_Restore_and_Promote_Sustainable_Use_of_Terrestrial_Ecosystems"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Greenhouse_Gaz_Emission_Limiting"/>
+        <Class IRI="#Climate_Change_Limiting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Life-Support_Regulation"/>
+        <Class IRI="#Environmental_Justice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Resource_Protection"/>
+        <Class IRI="#ESD_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protect_and_Restore_and_Promote_Sustainable_Use_of_Terrestrial_Ecosystems"/>
+        <Class IRI="#ESD_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sea_and_Ocean_Protection"/>
+        <Class IRI="#Water_Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strong_ESD"/>
+        <Class IRI="#Type_of_ESD_by_CNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sustainable_Ecosystem"/>
+        <Class IRI="#Ecosystem_Support"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sustainable_Use_of_the_Oceans_and_Seas"/>
+        <Class IRI="#Water_Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Take_Urgent_Action_to_Combat_Climate_Change_and_its_Impacts"/>
+        <Class IRI="#ESD_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type_of_ESD"/>
+        <Class IRI="#Environmental_Sustainable_Development"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type_of_ESD_by_CNC"/>
+        <Class IRI="#Type_of_ESD"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type_of_ESD_by_Function"/>
+        <Class IRI="#Type_of_ESD"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waste_Assimilation"/>
+        <Class IRI="#ESD_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_Security"/>
+        <Class IRI="#Natural_Resource_Protection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weak_ESD"/>
+        <Class IRI="#Type_of_ESD_by_CNC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conserve_and_Sustainable_Use_the_Oceans,_Seas_and_Marine_Resources"/>
+        <Class IRI="#ESD_goal"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_antonym"/>
+        <ObjectProperty IRI="#is_antonym_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_format_of"/>
+        <ObjectProperty IRI="#has_format"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_goal_of"/>
+        <ObjectProperty IRI="#has_goal"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_manufacturer_of"/>
+        <ObjectProperty IRI="#has_manufacturer"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_mode_of"/>
+        <ObjectProperty IRI="#has_mode"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_property_of"/>
+        <ObjectProperty IRI="#has_property"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_abbreviation"/>
+        <ObjectProperty IRI="#is_abbreviation_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_lexical_variant"/>
+        <ObjectProperty IRI="#is_lexical_variant_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_method"/>
+        <ObjectProperty IRI="#is_method_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_reference_to"/>
+        <ObjectProperty IRI="#is_referenced_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_version"/>
+        <ObjectProperty IRI="#is_version_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_required_by"/>
+        <ObjectProperty IRI="#requires"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_used_by"/>
+        <ObjectProperty IRI="#use"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#is_antonym_of"/>
+    </InverseFunctionalObjectProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Air_Pollution_Assimilation</IRI>
+        <Literal>The possibility of the nature or technical device to assimilate air pollution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#hasSynonym"/>
+        <IRI>#Biodiversity_Protection</IRI>
+        <Literal>biodiversity storage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#hasSynonym"/>
+        <IRI>#Climate_Change_Limiting</IRI>
+        <Literal>climate change mitigating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Critical_Natural_Capital</IRI>
+        <Literal>CNC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ecological_Process_Regulation</IRI>
+        <Literal>Intervention in different levels for enchancement the sustainability of ecological process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Environmental_Justice</IRI>
+        <Literal>Fair treatment and meaningful involvement of all people regardless of race, color, national origin, or income with respect to the development, implementation and enforcement of environmental laws, regulations and policies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Environmental_Law</IRI>
+        <Literal>A collective term encompassing aspects of the law that provide protection to the environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Environmental_Quality</IRI>
+        <Literal xml:lang="en">A measure of the condition of an environment relative to the requirements of one or more species, any human need or purpose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Environmental_Sustainability_Index</IRI>
+        <Literal xml:lang="en">A measure of overall progress towards environmental sustainability.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Environmental_Sustainable_Development</IRI>
+        <Literal xml:lang="en">ESD is the responsibility to conserve natural resources and protect global ecosystems to support health and wellbeing, now and in the future.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#hasSynonym"/>
+        <IRI>#Forest_Sustainable_Management</IRI>
+        <Literal>sustainable forestry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Forest_Sustainable_Management</IRI>
+        <Literal>A dynamic and evolving concept, which aims to maintain and enhance the economic, social and environmental values of all types of forests, for the benefit of present and future generations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#hasSynonym"/>
+        <IRI>#Natural_Resource_Protection</IRI>
+        <Literal xml:lang="en">Protection of Nature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#hasSynonym"/>
+        <IRI>#Natural_Resource_Protection</IRI>
+        <Literal>conservation of nature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Sustainable_Ecosystem</IRI>
+        <Literal>A biological environment and series of habitats that is able to thrive and support itself without outside influence or assistance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#hasSynonym"/>
+        <IRI>#Water_Security</IRI>
+        <Literal>water saving</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
